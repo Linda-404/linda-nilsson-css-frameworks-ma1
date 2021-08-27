@@ -1,0 +1,17 @@
+nav {
+    background-color: getColor(offwhite);
+    font-family: $font-nav;
+
+    .navbar-brand {
+        font-family: $font-primary;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    li a {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .sr-only {
+        color: getColor(lingonberry);
+    }
+}

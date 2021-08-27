@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+body {
+    background-color: getColor(lightgrey);
+    margin: 0;
+    font-family: $font-primary;
+    display: flex;
+    flex-direction: column;
+
+    // .header {
+    //     justify-content: center;
+    // }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    footer {
+        background-color: getColor(offwhite);
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+    }
+    .footer__item {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer a {
+        color: #000;
+    }
+}

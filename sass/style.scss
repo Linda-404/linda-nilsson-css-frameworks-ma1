@@ -1,5 +1,3 @@
 @import "partials/variables";
-
-body {
-    background-color: getColor(lightgrey);
-}
+@import "partials/base";
+@import "partials/nav";
