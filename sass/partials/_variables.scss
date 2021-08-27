@@ -1,0 +1,13 @@
+$colors: (
+    white: #FFF,
+    offwhite: #f4f3ee,
+    lightgrey: #e5e5e5,
+    mediumgrey: #e2e2e2,
+    darkgrey: #8d8d8d,
+    darkestgrey: #6a6a6a,
+    lingonberry: #c32c72
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
