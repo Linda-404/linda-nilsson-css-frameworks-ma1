@@ -72,7 +72,7 @@ nav li a {
   text-transform: uppercase;
 }
 
-nav .sr-only {
+nav .active {
   color: #c32c72;
 }
 
