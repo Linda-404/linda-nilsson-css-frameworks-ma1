@@ -64,6 +64,7 @@ nav {
 nav .navbar-brand {
   font-family: "open sans", sans-serif;
   font-size: 36px;
+  color: #000;
   text-transform: uppercase;
 }
 
@@ -72,7 +73,11 @@ nav li a {
   text-transform: uppercase;
 }
 
-nav .active {
+nav .nav-link {
+  color: #000;
+}
+
+nav .active > .nav-link {
   color: #c32c72;
 }
 
@@ -95,7 +100,7 @@ footer .footer__item {
   padding-bottom: 10px;
 }
 
-footer footer a {
+footer a {
   color: #000;
 }
 

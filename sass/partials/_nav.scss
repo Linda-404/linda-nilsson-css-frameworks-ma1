@@ -6,6 +6,7 @@ nav {
     .navbar-brand {
         font-family: $font-primary;
         font-size: 36px;
+        color: #000;
         text-transform: uppercase;
     }
     
@@ -13,7 +14,12 @@ nav {
         font-size: 18px;
         text-transform: uppercase;
     }
-    .active {
+
+    .nav-link {
+        color: #000;
+    }
+
+    .active > .nav-link {
         color: getColor(lingonberry);
     }
 }
