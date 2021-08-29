@@ -20,6 +20,6 @@ nav {
     }
 
     .active > .nav-link {
-        color: getColor(lingonberry);
+        color: getColor(lingonberry) !important;
     }
 }

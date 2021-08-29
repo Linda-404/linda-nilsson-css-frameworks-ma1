@@ -79,7 +79,7 @@ nav .nav-link {
 }
 
 nav .active > .nav-link {
-  color: #c32c72;
+  color: #c32c72 !important;
 }
 
 h1 {
