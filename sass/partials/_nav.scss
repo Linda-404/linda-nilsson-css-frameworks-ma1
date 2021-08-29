@@ -1,12 +1,14 @@
 nav {
     background-color: getColor(offwhite);
     font-family: $font-nav;
+    // position: fixed;
 
     .navbar-brand {
         font-family: $font-primary;
         font-size: 36px;
         text-transform: uppercase;
     }
+    
     li a {
         font-size: 18px;
         text-transform: uppercase;

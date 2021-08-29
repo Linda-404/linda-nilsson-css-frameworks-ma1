@@ -8,6 +8,7 @@ html, body {
 
 .wrapper {
     flex: 1 0 auto;
+    padding-bottom: 50px;
 }
 
 body {
@@ -17,27 +18,36 @@ body {
     display: flex;
     flex-direction: column;
 
-    // .header {
-    //     justify-content: center;
-    // }
+    .header {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
 
     h1 {
         font-size: 34px;
     }
 
-    footer {
+    .square {
+        width: 250px;
+        height: 250px;
+        margin: 15px;
+        border-radius: 15px;
+    }
+    .square__beige {
         background-color: getColor(offwhite);
-        display: flex;
-        flex-shrink: 0;
-        justify-content: space-between;
     }
-    .footer__item {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .square__redBorder {
+        background-color: getColor(white);
+        border-style: solid;
+        border-width: 3px;
+        border-color: getColor(lingonberry);
     }
-    footer a {
-        color: #000;
+    .square__whiteBorderRedFill {
+        background-color: getColor(lingonberry);
+        border-style: solid;
+        border-width: 3px;
+        border-color: getColor(white);
     }
+ 
 }
